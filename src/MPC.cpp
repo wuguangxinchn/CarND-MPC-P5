@@ -58,7 +58,7 @@ class FG_eval {
 
     // Cost function
     // There is a chapter "Tuning MPC" in the course introducing how to make the car "smooth".
-    // But what is the trade-off?  "MathWorks" can be used to do it automatically? 
+    // Any trade-off or best practices?  "MathWorks" can be used to do it automatically? 
     
     // The part of the cost based on the reference state.
     for (int t = 0; t < N; t++) {
